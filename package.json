@@ -1,0 +1,40 @@
+{
+  "name": "gulp-icon-font",
+  "version": "0.0.1",
+  "description": "Gulp plugin for generate iconfont from svgs",
+  "license": "MIT",
+  "repository": "ecomfe/gulp-icon-font",
+  "author": {
+    "name": "junmer",
+    "email": "junmer@foxmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "font",
+    "iconfont",
+    "icon",
+    "fontmin",
+    "ttf",
+    "woff",
+    "eot",
+    "svg"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "fontmin": "^0.7.3",
+    "gulp-util": "^3.0.0",
+    "through2": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
